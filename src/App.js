@@ -5,6 +5,7 @@ import UseStateObj from './components/UseStateObj'
 import UseStateArray from './components/UseStateArray'
 import UseEffectDemo from './components/UseEffectDemo'
 import UseEffectCleanup from "./components/UseEffectCleanup";
+import UseEffectInterval from './components/UseEffectInterval'
 
 function App() {
 
@@ -16,8 +17,11 @@ function App() {
       {/* <UseStateObj/> */}
       {/* <UseStateArray/> */}
       {/* <UseEffectDemo/> */}
-      {isShow && <UseEffectCleanup/>}
-      <button onClick={()=>setisShow(false)}>Hide</button>
+
+      {/* {isShow && <UseEffectCleanup/>}
+      <button onClick={()=>setisShow(false)}>Hide</button> */}
+
+      <UseEffectInterval/>
     </div>
   );
 }
