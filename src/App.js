@@ -7,7 +7,7 @@ import UseEffectDemo from './components/UseEffectDemo'
 import UseEffectCleanup from "./components/UseEffectCleanup";
 import UseEffectInterval from './components/UseEffectInterval'
 import UseEffectAxios from './components/UseEffectAxios'
-
+import Usecontext from './components/Usecontext'
 function App() {
 
   const [isShow, setisShow] = useState(true)
@@ -23,7 +23,8 @@ function App() {
       <button onClick={()=>setisShow(false)}>Hide</button> */}
 
       {/* <UseEffectInterval/> */}
-      <UseEffectAxios/>
+      {/* <UseEffectAxios/> */}
+      <Usecontext/>
     </div>
   );
 }
